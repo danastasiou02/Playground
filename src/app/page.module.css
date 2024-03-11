@@ -1,0 +1,73 @@
+.bg{
+  background-image: url(/images/bgimg.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width:100vw;
+  min-height:100vh;
+  
+  
+}
+
+
+.center{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 80vh;
+  
+}
+
+
+.Signin{
+  
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;  
+  background-color: transparent;
+  ;
+}
+.titles{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+.info{
+  color:white;
+  font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 700;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+.button{
+  background-color: black;
+  color:white;
+  
+  height:5vh;
+  width:11vw;
+  font-size:17px;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 100;
+}
+
+.inputs{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  
+  
+}
+
+.inputs1{
+ 
+  width:20vw;
+  height:4vh;
+}
